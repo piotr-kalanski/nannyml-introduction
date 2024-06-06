@@ -1,6 +1,7 @@
 import streamlit as st
 import nannyml as nml
 
+st.set_page_config(layout="wide")
 st.title('Direct Loss Estimation (DLE)')
 
 st.markdown("""
