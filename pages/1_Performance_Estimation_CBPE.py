@@ -1,7 +1,7 @@
 import streamlit as st
 import nannyml as nml
 
-st.title('Confidence based performance estimation')
+st.title('Confidence Based Performance Estimation (CBPE)')
 
 st.markdown("""
 - Used for binary and multiclass classification problems
@@ -23,6 +23,7 @@ st.write(reference_df.head())
 st.subheader('Analysis')
 st.write(analysis_df.head())
 
+st.subheader('Estimated performance')
 with st.spinner('Estimating performance'):
     # Choose a chunker or set a chunk size:
     chunk_size = 5000
