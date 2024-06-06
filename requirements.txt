@@ -1,0 +1,5 @@
+altair==4.2.2
+streamlit==1.35.0
+pandas==2.2.2
+nannyml==0.10.6
+lightgbm==4.3.0
